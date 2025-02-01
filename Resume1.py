@@ -8,8 +8,8 @@ import fitz
 import google.generativeai as genai
 
 st.set_page_config(
-    page_title= "Venturesathi",
-    page_icon="Logo.jpg",
+    page_title= "Icubes",
+    # page_icon="Logo.jpg",
 )
 
 # hide_streamlit_style = """
