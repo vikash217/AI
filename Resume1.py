@@ -51,7 +51,7 @@ def input_pdf_setup(uploaded_file):
         raise FileNotFoundError("No file uploaded")
 
 
-st.header("Venturesthi Resume Stack Ranking")
+st.header("Icubes Resume Scorer")
 input_text = st.text_area("Job Description: ", key="input")
 uploaded_file = st.file_uploader("Upload your resume(PDF)...", type=["pdf"])
 
