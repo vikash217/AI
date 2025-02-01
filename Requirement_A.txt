@@ -1,0 +1,7 @@
+Flask
+Flask-Bcrypt
+Flask-Cors
+psycopg2-binary
+PyJWT
+Werkzeug
+gunicorn

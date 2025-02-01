@@ -1,0 +1,14 @@
+pyMupdf
+flask
+flask_cors
+google.generativeai
+gunicorn
+streamlit
+PyMuPDF
+google.generativeai
+os
+langchain.chains
+langchain_core.messages
+langchain.chains.conversation.memory 
+langchain_groq 
+langchain_core.prompts
