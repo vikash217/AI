@@ -25,7 +25,7 @@ def extract_pdf_text(uploaded_file):
 
 def get_gemini_response(job_description, resume_text, prompt):
     try:
-        model = genai.GenerativeModel('Gemini 2.0 Flash Preview Image Generation')  
+        model = genai.GenerativeModel('Gemini 2.5 Pro Preview')  
         response = model.generate_content([prompt, f"Job Description:\n{job_description}", f"Resume:\n{resume_text}"])
         return response.text
     except Exception as e:
