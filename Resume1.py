@@ -24,7 +24,7 @@ st.set_page_config(
 api_key = os.environ.get('GOOGLE_API_KEY')
 
 def get_gemini_response(input, pdf_content, prompt):
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('Gemini 2.5 Flash Preview 05-20')
     response = model.generate_content([input, pdf_content[0], prompt])
     return response.text
 
